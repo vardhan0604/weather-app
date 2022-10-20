@@ -1,0 +1,159 @@
+html { font-size: 57.5%; }
+
+body{
+    margin-top: 2rem;
+    background-color: rgba(196, 240, 255, 0.538);;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.current{
+    background-color: rgb(196, 240, 255);
+    display: grid;
+    margin:2rem 8rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 1.2rem .8rem;
+    align-items: center;
+   
+    
+}
+.left{
+    text-align: center;
+    margin: 3rem 6rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color:  rgb(133, 221, 251);
+
+}
+.top{
+    margin-top:2rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:6rem
+}
+.weather{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.weather-desc{
+    font-size: 1.2rem;
+}
+.w-image{
+    height: 10rem;
+    width: 10rem;
+}
+
+.max-min{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.mm-head{
+    font-weight: 600;
+}
+
+.mm{
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+.logo{
+    height: 2.6rem;
+    display: block;
+}
+
+.c-location{
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+.tempc{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.feels{
+    font-size: 1.4rem;
+}
+.location{
+    display: flex;
+    position: absolute;
+    top: -6rem;
+    right: 0;
+    align-items: center;
+    justify-content: right;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+.right{
+    margin-right: 6rem;
+    position: relative;
+}
+.max,.min{
+    background-color: rgb(60, 205, 253);
+    padding: 1.2rem;
+    border-radius: 15px;
+    min-width: 6rem;
+}
+.g{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:3rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.gi-head{
+    font-size: 2.2rem;
+    font-weight: 600;
+    display: flex;
+    gap: 1rem;
+}
+.gi-i{
+    height: 2rem;
+}
+.gi-desc{
+    text-align: center;
+    font-size: 1.6rem;
+    
+}
+.gi{
+    margin-top: 2.6rem;
+    background-color:  rgb(133, 221, 251);
+    padding: 1.4rem 1.6rem;
+    border-radius: 15px;
+    
+}
+.gg{
+    display: flex;
+    align-items: center;
+    background-color: rgb(196, 240, 255);
+    padding: 3rem;
+    justify-content: space-around;
+    margin:  4rem 12rem;
+}
+
+.ggi{
+    background-color:  rgb(133, 221, 251);
+    padding: 2rem 4rem;
+    border-radius: 16px;
+    text-align: center;
+}
+.ggih{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.ggit{
+    font-size: 1.3rem;
+}
+.ggd{
+    font-size: 1.2rem;
+}
