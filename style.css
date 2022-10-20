@@ -4,7 +4,7 @@ body{
     margin-top: 2rem;
     background-color: rgba(196, 240, 255, 0.538);;
     font-family: 'Poppins', sans-serif;
-    overflow-y: hidden;
+  
     overflow-x: hidden;
 }
 
@@ -124,18 +124,21 @@ body{
     font-size: 1.6rem;
     
 }
+
 .gi{
     margin-top: 2.6rem;
-    background-color:  rgb(133, 221, 251);
     padding: 1.4rem 1.6rem;
     border-radius: 15px;
     
 }
 .gg{
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 3rem;
     align-items: center;
     background-color: rgb(196, 240, 255);
-    padding: 3rem;
+    padding: 3rem 4rem;
     justify-content: space-around;
     margin:  4rem 12rem;
 }
